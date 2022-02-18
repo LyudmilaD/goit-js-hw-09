@@ -17,5 +17,34 @@ img {
   max-width: 100%;
 }
 
+/* Adding styles for the timer */
+.timer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 350px;
+  text-transform: uppercase;
+}
 
 
+.value {
+  font-weight: 500;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+#datetime-picker {
+  width: 300px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.field {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+
+.button-timer {
+  font-weight: 500;
+  font-size: 30px;
+}
